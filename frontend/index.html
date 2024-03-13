@@ -1,72 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temperature Converter</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
   </head>
-<body>
-  <h1>Temperature Converter</h1>
-  <form id="temperature-converter">
-    <div>
-      <label for="input-temp">Enter temperature:</label>
-      <input type="number" id="input-temp" name="temperature" required>
-    </div>
-    <div>
-      <label>Select Input Unit:</label><br>
-      <input type="radio" id="celsius" name="unit" value="celsius" checked>
-      <label for="celsius">Celsius</label>
-      <input type="radio" id="fahrenheit" name="unit" value="fahrenheit">
-      <label for="fahrenheit">Fahrenheit</label>
-    </div>
-    <div>
-      <label>Select Output Unit:</label><br>
-      <input type="radio" id="celsius-output" name="output-unit" value="celsius" checked>
-      <label for="celsius-output">Celsius</label>
-      <input type="radio" id="fahrenheit-output" name="output-unit" value="fahrenheit">
-      <label for="fahrenheit-output">Fahrenheit</label>
-    </div>
-    <button type="button" onclick="convertTemperature()">Convert</button>
-  </form>
-  <p id="result"></p>
+  <body>
+    <h1>Temperature Converter</h1>
+    <form id="temperature-converter">
+      <div>
+        <label for="input-temp">Enter temperature:</label>
+        <input type="number" id="input-temp" name="temperature" required />
+      </div>
+      <div>
+        <label>Select Input Unit:</label><br />
+        <input type="radio" id="celsius" name="unit" value="celsius" checked />
+        <label for="celsius">Celsius</label>
+        <input type="radio" id="fahrenheit" name="unit" value="fahrenheit" />
+        <label for="fahrenheit">Fahrenheit</label>
+      </div>
+      <div>
+        <label>Select Output Unit:</label><br />
+        <input
+          type="radio"
+          id="celsius-output"
+          name="output-unit"
+          value="celsius"
+          checked
+        />
+        <label for="celsius-output">Celsius</label>
+        <input
+          type="radio"
+          id="fahrenheit-output"
+          name="output-unit"
+          value="fahrenheit"
+        />
+        <label for="fahrenheit-output">Fahrenheit</label>
+      </div>
+      <button type="button" onclick="convertTemperature()">Convert</button>
+    </form>
+    <p id="result"></p>
 
-  <script>
-  </script>
-</body>
+    <script></script>
+  </body>
 </html>
-<!-- <!DOCTYPE html> -->
-<!-- <html lang="en"> -->
-<!--   <head> -->
-<!--     <title></title> -->
-<!--     <meta charset="UTF-8"> -->
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<!--     <link href="./style.css" rel="stylesheet"> -->
-<!--   </head> -->
-<!--   <body> -->
-<!--     <h1 align="center">Temperatuer Converter</h1> -->
-<!--     <div class="container"> -->
-<!--       <div class="celcius"> -->
-<!--         <input type="radio" id='celciusRadio' name='celcius' /> -->
-<!--         Celcius  -->
-<!--       </div> -->
-<!--       <div class="farenheit"> -->
-<!--         <input type="radio" id='fahrenheitRadio' name='fahrenheit' /> -->
-<!--         Farenheit  -->
-<!--         <input type="number" name='fahrenheit' id='inputNumber'/> -->
-<!--       </div> -->
-<!--       <button>Convert</button> -->
-<!--     </div> -->
-<!--     <br> -->
-<!--     <div class="output"> -->
-<!--       <div class="output1"> -->
-<!--       <input type="radio" id='celciusOutput'> -->
-<!--           Celcius -->
-<!--       </div> -->
-<!--       <div class="output2"> -->
-<!--       <input type="radio" id='fahrenheitOutput'> -->
-<!--          Fahrenheit  -->
-<!--       </div> -->
-<!---->
-<!--     </div> -->
-<!--   </body> -->
-<!-- </html> -->
