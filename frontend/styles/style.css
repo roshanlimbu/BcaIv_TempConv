@@ -1,13 +1,23 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
 h1 {
   text-align: center;
 }
 
 form {
-  width: 400px;
+  width: 20rem;
   margin: 0 auto;
-  padding: 20px;
+  padding: 2rem 3.5rem;
   border-radius: 5px;
-  background: silver;
+  background: orange;
 }
 
 label {
@@ -31,8 +41,8 @@ button {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background-color: green;
-  color: white;
+  background-color: #fff;
+  color: orange;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -40,6 +50,8 @@ button {
 
 button:hover {
   background-color: #45a049;
+  transition: all 0.3s ease-in;
+  color: #fff;
 }
 
 #result {
